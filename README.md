@@ -5,6 +5,8 @@ He wat leuk dat je meedoet!
 Deze tips zijn te vinden op [github](https://github.com/sjerp-indrukwekkend/vscode-instructies)
 en zijn geschreven in Markup, de taal voor technisch schrijven. Zie de [tutorial](https://guides.github.com/features/mastering-markdown/)
 
+Grootmeesters gebruiken hun muis en tastblad niet... toetsenborden!
+
 ## Vereisten voor deze tips
 
 1. VS Code
@@ -15,3 +17,11 @@ en zijn geschreven in Markup, de taal voor technisch schrijven. Zie de [tutorial
 Dit zijn mijn extensies:
 
 ![sjerp vscode extensies](https://github.com/sjerp-indrukwekkend/vscode-instructies/blob/master/vscode%20extensies%20sjerp.png)
+
+## Installeer de componentenbibliotheek lokaal om mee te doen
+
+```bash
+cd ~;
+git clone https://github.com/indrukwekkend/WP-componenten;
+code WP-componenten;
+```
