@@ -125,3 +125,33 @@ $bla_array = [
 
 Bekend verschijnsel. Dat kan je bereiken door je cursor ergens neer te zetten en dan
 `ctrl alt pijlOmhoog` (of omlaag) te tikken. Als je dan bij hela, hola en kinderkola en cursor hebt druk je op `end` en dan ben je met al je cursors aan het eind van de regel.
+
+```php
+$bla_array = [
+  'hela' => get_the_post_thumbnail(),
+  'hola' => get_the_post_thumbnail(),
+  'kindercola' => get_the_post_thumbnail()
+];
+```
+
+en wat er dan specifiek is, dat vult je vervolgens in per regel.
+
+### selecteer een term door je document meerdere keren
+
+Stel je hebt een variabele gebruikt in je code maar die heb je hernoemt.
+
+```javascript
+var besteNaamOoit = document.getElementById("header-scroll-knop");
+
+besteNaamOoit.addEventListener("click", functieNaam);
+
+if (besteNaamOoit.hasAttribute("disabled")) {
+  console.log("bug in je code gast");
+}
+
+besteNaamOoit.appendChild(document.createTextNode("raar voorbeeld"));
+```
+
+Beste naam ooit is niet zo goed je wilt het hernoemen naar headerScrollKnop.
+Selecteer dan de string **besteNaamOoit** en `ctrl d` om één voor één alle voorvallen van die term te selecteren.
+Hierna kan je ze allemaal tegelijk bewerken.
