@@ -148,6 +148,10 @@ $bla_array = [
 
 en wat er dan specifiek is, dat vult je vervolgens in per regel.
 
+Je kan ook met de muis meerdere cursors toevoegen:
+
+`alt klik`.
+
 ### selecteer een term door je document meerdere keren
 
 Stel je hebt een variabele gebruikt met een domme naam.
@@ -170,6 +174,20 @@ Hierna kan je ze allemaal tegelijk bewerken.
 
 Probeer: in admin-frontend bootstrap classes tegelijk vervangen door een ander in de artikel lijst.
 Hoe kom je bij artikel lijst zo snel mogelijk?
+
+### Regels ordenen
+
+Je kent het wel: een regeltje verplaatsen naar een andere positie. `ctrl x, pijlen, ctrl v`.
+Makkelijker: `alt pijlRichting`. Zo draai je ook regels met gemak om. Even die variabeledeclaratie naar bovenaan je functie gooien.
+
+Nog een: een lijst met eigenschappen of methodes. Rommelig! Zet ze op alfabet met sort. Maak een selectie en `ctrl shift p sort`.
+
+### Code aan of uit zetten.
+
+Handig bij: debuggen of tijdelijk code wegwerken omdat de manager het in ene niet meer wilt maar je weet dat hij zo van mening kan veranderen.
+Contekstafhankelijk. Herkent of commentaar voor HTML, PHP, CSS, JS etc bedoelt is.
+
+Selectie maken en `ctrl /`.
 
 ## Intellisense bewegwijzering
 
