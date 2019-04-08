@@ -70,3 +70,19 @@ Stel je bent ergens binnen je workspace en je wilt snel naar bestand. Stel je zi
 Stel je voor je hebt meerdere thema's in je workspace en die hebben allemaal een **style.css**. Hoe maak je dat verschil? Stel ze heten **agitatie** en **40-45**. Noem maar wat. De eerste vind je dan als `ctrl p; ag style` en de tweede vind je als `ctrl p; 40 style`.
 
 Je kan zo weinig of zoveel tikken als je wilt. Minder tikken is obscuurder dus meer punten 👾👾👾
+
+Ga naar de componenten en test het zoeken naar:
+componenten/artikel_class.php
+subcomponenten/titel_trait.php
+
+#### Simpel zoeken + regel zoeken
+
+Vaak weet je niet alleen het bestand waar je heen wilt, maar ook de regel. Stel, je hebt van je debugger te horen gekregen dat je op regel 173 van admin_frontend.php een fout heb gemaakt. Ga je nu je hele mappenstructuur openklikken met de muis, op het bestand klikken, en dan scrollen naar een regel... 🤔
+
+`ctrl p; a fron:173`
+
+Zoals je ziet tik ik iets in waarvan ik, gevoelsmatig, gok dat het juiste bestand pakt.
+Hierachter zet je `:` en dan de regelnummer.
+
+Binnen een bepaalt bestand kan je naar een regel gaan door `ctrl g; [regel]` te tikken of `ctrl p; :[regel]`
+Als je met dit soort dingen begint, is éérst `ctrl p` en dan `ctrl g` natuurlijk meer dan prima 🧙‍♂️.
