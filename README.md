@@ -60,9 +60,9 @@ Doe
 
 De eerste optie is `ctrl p; #`.
 Stel, je hebt een fout gemaakt en de debugger geeft aan: het gaat fout in **functie** **maakTaxlijst()**. Je vindt die functie het snelste door de alt-tabben naar je tekstverwerker en dan te tikken: `ctrl p; #maakT`. De fuzzy search geeft je al snel een tip. Je hoeft niet exact te tikken, zodra de eerste optie de jouwe is kan je op enter drukken en je navigeert. Je kan met de pijltjes (...of zelfs met je muis) door de suggesties heen en de juiste selecteren.
-Let op dat deze 'symbolen' geen CSS selectoren bevatten. Dit gaat om PHP en JS.
+Let op dat deze 'symbolen' geen CSS selectoren bevatten. Dit gaat om PHP, JS, Typescript, Markup, etc.
 
-Als je specifieker wilt zoeken kan je binnen een bestand naar symbolen zoeken via `ctrl p; @`. Stel, je wilt binnen **artikel_class.php** zoeken naar de **functie maak()** dan is het beter om `ctrl p; @maa` te tikken dan `ctrl p; #maa`, alhoewel VS code natuurlijk slim genoeg is om je eerste hit je meest lokale hit te laten zijn.
+Als je specifieker wilt zoeken kan je binnen een bestand naar symbolen zoeken via `ctrl p; @`. Dit is ook hoe je binnen een CSS document navigeert. Stel, je wilt binnen **artikel_class.php** zoeken naar de **functie maak()** dan is het beter om `ctrl p; @maa` te tikken dan `ctrl p; #maa`, alhoewel VS code natuurlijk slim genoeg is om je eerste hit je meest lokale hit te laten zijn.
 
 #### Simpel bestanden zoeken
 
