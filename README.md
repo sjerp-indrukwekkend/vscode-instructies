@@ -4,7 +4,7 @@ He wat leuk dat je meedoet!
 
 ## Vereisten voor deze tips
 
-- VS Code
-- PHP
-- PHP intellisense
-- GIT
+1. VS Code
+2. PHP
+3. PHP intellisense
+4. GIT
