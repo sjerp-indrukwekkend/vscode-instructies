@@ -7,7 +7,7 @@ en zijn geschreven in Markup, de taal voor technisch schrijven. Zie de [tutorial
 
 ## Over deze tips
 
-Deze demo is gebaseerd op VS code. Een groot deel van wat ik behandel werkt ook in oudere tekstverwerkers, tenzij je echt met oude software werkt. In dat geval is het volgende een uitleg waarom je over zou moeten stappen.
+Deze demo is gebaseerd op ❤❤❤ VS code ❤❤❤. Een groot deel van wat ik behandel werkt ook in oudere tekstverwerkers, tenzij je echt met oude software werkt. In dat geval is het volgende een uitleg waarom je over zou moeten stappen 🛐.
 
 Het is niet de bedoeling dat je onthoudt wat ik zeg. Dat krijg je in de vingers door het te doen. Wat mijn doel is, is over te brengen wat een aantal van de mogelijkheden zijn van VS Code. Die dien je grosso modo te onthouden. Als je weet wat je wilt doen kan je via het commandopaneel (control shift p) zoeken naar de functionaliteit. De toetsencombinatie staat er dan vaak direct naast.
 
@@ -61,6 +61,12 @@ Let op dat deze 'symbolen' geen CSS selectoren bevatten. Dit gaat om PHP en JS.
 
 Als je specifieker wilt zoeken kan je binnen een bestand naar symbolen zoeken via `ctrl p; @`. Stel, je wilt binnen **artikel_class.php** zoeken naar de **functie maak()** dan is het beter om `ctrl p; @maa` te tikken dan `ctrl p; #maa`, alhoewel VS code natuurlijk slim genoeg is om je eerste hit je meest lokale hit te laten zijn.
 
-#### Commando's komen later
+#### Simpel bestanden zoeken
 
-Tik weer `ctrl p; ?`. De tweede optie is het commando paneel, dat je doorgaans oproept met `ctrl shift p` maar daarover later meer.
+Stel je bent ergens binnen je workspace en je wilt snel naar bestand. Stel je zit in bijvoorbeeld een gigantisch genest systeem zoals een Bedrock Wordpress en je wilt naar `/wp/blabla/foo/bar/faz/bedrock/horror/satan-bedacht-deze-mappenstructuur/wp-content/themes/40-45/templates/woocommerce/single-product.php`. Met de muis ben je dan aan het klikken en scrollen en pff... waardeloos! En hoe vaak doe je dat wel niet op een dag. Stel nu dat je een los op regex gebaseerde zoekopdracht kon doen op het bestandspad? VS Code verwerkt en indexeert dus alles in je codebase. Bovenstaand bestand kan ik vinden, zonder nadenken, met het volgende commando:
+
+`ctrl p; horror 40-45 single-prod php`.
+
+Stel je voor je hebt meerdere thema's in je workspace en die hebben allemaal een **style.css**. Hoe maak je dat verschil? Stel ze heten **agitatie** en **40-45**. Noem maar wat. De eerste vind je dan als `ctrl p; ag style` en de tweede vind je als `ctrl p; 40 style`.
+
+Je kan zo weinig of zoveel tikken als je wilt. Minder tikken is obscuurder dus meer punten 👾👾👾
