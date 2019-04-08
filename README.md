@@ -48,6 +48,10 @@ Het is nu echt belangrijk dat je je muis zo min mogelijk aanraakt binnen de cont
 
 ### Control p is je beste vriend.
 
-VS code is fijn omdat het veel kan maar ook uit legt waar nodig.
+VS code is fijn omdat het veel kan maar ook uit legt waar nodig. Mijn rol is hier dan ook vooral te wijzen op VS Code.
 Doe
-`ctrl p ?`
+
+`ctrl p; ?`
+
+De eerste optie is `ctrl p; #`.
+Stel, je hebt een fout gemaakt en de debugger geeft aan: het gaat fout in **functie** **maakTaxlijst**. Je vindt die functie het snelste door de alt-tabben naar je tekstverwerker en dan te tikken: `ctrl p; #maakT`. De fuzzy search geeft je al snel een tip. Je hoeft niet exact te tikken, zodra de eerste optie de jouwe is kan je op enter drukken en je navigeert.
