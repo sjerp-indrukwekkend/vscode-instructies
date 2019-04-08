@@ -179,4 +179,17 @@ Hoe kom je bij artikel lijst zo snel mogelijk?
 
 ## Commando paneel: git integratie
 
+Met VS code heb je geen excuus meer om geen git te gebruiken
+-> live demo git
+
+working tree demo
+
 ## Commando paneel: fold
+
+ga naar classes uit componenten en creeer overzicht met fold
+
+## Referenties
+
+[vscode macOs koppelingen](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
+
+[vscode windows koppelingen](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
