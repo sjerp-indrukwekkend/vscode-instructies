@@ -11,3 +11,7 @@ en zijn geschreven in Markup, de taal voor technisch schrijven. Zie de [tutorial
 2. PHP
 3. PHP intellisense
 4. GIT
+
+Dit zijn mijn extensies:
+
+[sjerp vscode extensies](https://github.com/sjerp-indrukwekkend/vscode-instructies/blob/master/vscode%20extensies%20sjerp.png)
