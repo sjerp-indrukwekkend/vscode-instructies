@@ -15,6 +15,9 @@ Bonus vandaag voor het zo min mogelijk gebruik maken van de muis.
 Grootmeesters gebruiken hun muis en tastblad amper... toetsenborden heersen!
 Dat heeft vele redenen, ga ik niet hier uiteenzetten, neem het voor nu maar van me aan.
 
+Wil iemand nòg een drogreden? Wes Bos, je weet wel van die Javascript cursus en die podcasts etc?
+Die is dus beroemd geworden met een verzameling tips & trucs voor Sublime Text, de tekstbewerker die ik gebruikte (en alle anderen met goede smaak) vóór VS Code. Dus dit is allemaal su-per belangrijk.
+
 ## Vereisten voor deze tips
 
 1. VS Code
@@ -93,15 +96,32 @@ Als je met dit soort dingen begint, is éérst `ctrl p` en dan `ctrl g` natuurli
 
 Ook ik weet het niet allemaal. Sinds ik begon met het ondersteboven leggen van mijn muis 3 jaar terug ben ik mega veel productiever geworden. Dit leer je echt door het te doen, en door stelselmatig niet je muis te gebruiken 🤓. Deze commando's zijn relatief universeel. Als je ze kent, en dan duurt echt niet lang, heb je daar je leven lang profijt van.
 
-## Tekstbewerker en navigatie
+## Tekstbewerker en navigatie of selectie
 
 Meer universele commando's.
 
-### schakelen tussen bladen - universele commando's.
+### schakelen tussen bladen.
 
 Stel, je hebt links een header.php open en rechts een header.scss open. Je wilt schakel tussen deze twee. Dat kan natuurlijk met de reeds bekende methode `ctrl p; hea scs`. Dat zijn veel toetsenaanslagen en mogelijk een cognitief lastigere stap dan: **blad naar rechts**. Een blad naar rechts ga je met: `ctrl pgdn`. Dat zijn 2 (of 3 op een laptop) toetsaanslagen.
 
 > Misschien kan ik het uitleggen door te zeggen: alleen ISIS wil méér aanslagen.
 > Wij willen minder.
 > Daarom moet je zo efficient mogelijk tikken,
-> anders winnen de terroristen.
+> anders 💣💣💣💣💣 winnen de terroristen.
+
+Probeer: open meerdere bestanden en schakel er tussen heen en weer.
+
+### meerdere cursors tegelijk
+
+Stel je hebt een array waarbij je op meerdere plekken tegelijk wilt bewerken.
+
+```php
+$bla_array = [
+    'hela' =>
+    'hola' =>
+    'kindercola' =>
+];
+```
+
+Bekend verschijnsel. Dat kan je bereiken door je cursor ergens neer te zetten en dan
+`ctrl alt pijlOmhoog` (of omlaag) te tikken. Als je dan bij hela, hola en kinderkola en cursor hebt druk je op `end` en dan ben je met al je cursors aan het eind van de regel.
