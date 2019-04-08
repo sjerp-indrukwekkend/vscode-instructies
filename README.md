@@ -33,3 +33,21 @@ cd ~;
 git clone https://github.com/indrukwekkend/WP-componenten;
 code WP-componenten;
 ```
+
+## Vind waar je dient te programmeren
+
+Eén van de meest tijdrovende en cognitief vermoeiende taken als programmeur is vinden wáár je nu moet programmeren en daarheen navigeren.
+Dat wordt op grofweg twee manieren opgelost:
+
+1. De runtime (zoals de browser) contekst meegeven over de oorsprong van code, zoals codemaps (CSS, JS). Daar kijken we nu niet naar.
+2. Binnen de codebase navigatie aanbrengen.
+
+Naar dat laatste gaan we kijken en dat doen we aan de hand van wat concrete voorbeelden.
+
+Het is nu echt belangrijk dat je je muis zo min mogelijk aanraakt binnen de contekst van je tekstbewerker. In de browser mag het wel.
+
+### Control p is je beste vriend.
+
+VS code is fijn omdat het veel kan maar ook uit legt waar nodig.
+Doe
+`ctrl p ?`
