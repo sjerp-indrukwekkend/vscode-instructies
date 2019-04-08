@@ -14,4 +14,4 @@ en zijn geschreven in Markup, de taal voor technisch schrijven. Zie de [tutorial
 
 Dit zijn mijn extensies:
 
-[sjerp vscode extensies](https://github.com/sjerp-indrukwekkend/vscode-instructies/blob/master/vscode%20extensies%20sjerp.png)
+![sjerp vscode extensies](https://github.com/sjerp-indrukwekkend/vscode-instructies/blob/master/vscode%20extensies%20sjerp.png)
