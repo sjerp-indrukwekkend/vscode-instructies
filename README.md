@@ -171,8 +171,12 @@ Hierna kan je ze allemaal tegelijk bewerken.
 Probeer: in admin-frontend bootstrap classes tegelijk vervangen door een ander in de artikel lijst.
 Hoe kom je bij artikel lijst zo snel mogelijk?
 
-### Intellisense bewegwijzering
+## Intellisense bewegwijzering
 
 - Sjerp krijgt bezoek van een vriend met giga issues
 - helaas geen tijd om verder te tikken
 - live demo!!!
+
+## Commando paneel: git integratie
+
+## Commando paneel: fold
