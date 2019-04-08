@@ -92,6 +92,18 @@ Hierachter zet je `:` en dan de regelnummer.
 Binnen een bepaalt bestand kan je naar een regel gaan door `ctrl g; [regel]` te tikken of `ctrl p; :[regel]`
 Als je met dit soort dingen begint, is éérst `ctrl p` en dan `ctrl g` natuurlijk meer dan prima 🧙‍♂️.
 
+### Lomp zoeken - als je het niet anders kan.
+
+`ctrl f`
+
+Stel, je bent binnen een bestand en je vermoed of je weet dat er niet een geijkte methode is om naar een stuk tekst te gaan.
+
+> En de heer zei: gij zult niet scrollen.
+
+Stel je voor je bent in admin_frontend.php en je wilt zoeken naar een bepaalde plek waar je de Knop class hebt gebruikt.
+`ctr f; Knop(` herkent alle keren waarop je die class hebt aangeroepen.
+met `enter` blader je door de opties heen. Als je bij de goede bent aanbeland, gebruik je `esc` om uit de zoekcontekst te gaan en je kan verder tikken.
+
 ### Eindeloze commando's om te kunnen.
 
 Ook ik weet het niet allemaal. Sinds ik begon met het ondersteboven leggen van mijn muis 3 jaar terug ben ik mega veel productiever geworden. Dit leer je echt door het te doen, en door stelselmatig niet je muis te gebruiken 🤓. Deze commando's zijn relatief universeel. Als je ze kent, en dan duurt echt niet lang, heb je daar je leven lang profijt van.
@@ -138,7 +150,7 @@ en wat er dan specifiek is, dat vult je vervolgens in per regel.
 
 ### selecteer een term door je document meerdere keren
 
-Stel je hebt een variabele gebruikt in je code maar die heb je hernoemt.
+Stel je hebt een variabele gebruikt met een domme naam.
 
 ```javascript
 var besteNaamOoit = document.getElementById("header-scroll-knop");
@@ -155,3 +167,12 @@ besteNaamOoit.appendChild(document.createTextNode("raar voorbeeld"));
 Beste naam ooit is niet zo goed je wilt het hernoemen naar headerScrollKnop.
 Selecteer dan de string **besteNaamOoit** en `ctrl d` om één voor één alle voorvallen van die term te selecteren.
 Hierna kan je ze allemaal tegelijk bewerken.
+
+Probeer: in admin-frontend bootstrap classes tegelijk vervangen door een ander in de artikel lijst.
+Hoe kom je bij artikel lijst zo snel mogelijk?
+
+### Intellisense bewegwijzering
+
+- Sjerp krijgt bezoek van een vriend met giga issues
+- helaas geen tijd om verder te tikken
+- live demo!!!
