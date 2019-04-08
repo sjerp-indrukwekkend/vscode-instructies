@@ -79,6 +79,8 @@ subcomponenten/titel_trait.php
 
 Vaak weet je niet alleen het bestand waar je heen wilt, maar ook de regel. Stel, je hebt van je debugger te horen gekregen dat je op regel 173 van admin_frontend.php een fout heb gemaakt. Ga je nu je hele mappenstructuur openklikken met de muis, op het bestand klikken, en dan scrollen naar een regel... 🤔
 
+lol nee.
+
 `ctrl p; a fron:173`
 
 Zoals je ziet tik ik iets in waarvan ik, gevoelsmatig, gok dat het juiste bestand pakt.
@@ -86,3 +88,20 @@ Hierachter zet je `:` en dan de regelnummer.
 
 Binnen een bepaalt bestand kan je naar een regel gaan door `ctrl g; [regel]` te tikken of `ctrl p; :[regel]`
 Als je met dit soort dingen begint, is éérst `ctrl p` en dan `ctrl g` natuurlijk meer dan prima 🧙‍♂️.
+
+### Eindeloze commando's om te kunnen.
+
+Ook ik weet het niet allemaal. Sinds ik begon met het ondersteboven leggen van mijn muis 3 jaar terug ben ik mega veel productiever geworden. Dit leer je echt door het te doen, en door stelselmatig niet je muis te gebruiken 🤓. Deze commando's zijn relatief universeel. Als je ze kent, en dan duurt echt niet lang, heb je daar je leven lang profijt van.
+
+## Tekstbewerker en navigatie
+
+Meer universele commando's.
+
+### schakelen tussen bladen - universele commando's.
+
+Stel, je hebt links een header.php open en rechts een header.scss open. Je wilt schakel tussen deze twee. Dat kan natuurlijk met de reeds bekende methode `ctrl p; hea scs`. Dat zijn veel toetsenaanslagen en mogelijk een cognitief lastigere stap dan: **blad naar rechts**. Een blad naar rechts ga je met: `ctrl pgdn`. Dat zijn 2 (of 3 op een laptop) toetsaanslagen.
+
+> Misschien kan ik het uitleggen door te zeggen: alleen ISIS wil méér aanslagen.
+> Wij willen minder.
+> Daarom moet je zo efficient mogelijk tikken,
+> anders winnen de terroristen.
